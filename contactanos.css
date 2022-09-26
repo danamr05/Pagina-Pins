@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.titulo{
+    padding-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+
+}
+form{
+    padding-left: 30px;
+    padding-top: 10px;
+}
