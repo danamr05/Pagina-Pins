@@ -20,3 +20,9 @@ const navSlide = () => {
     
 }
 navSlide();
+
+$('#miModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
+
+//grid template columns y media query

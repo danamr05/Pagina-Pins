@@ -124,7 +124,7 @@ header{
     font-size: 60px;
     font-weight: bold;
     margin: 1.5em 0;
-    color: black;
+    color: white;
 }
 
 .inicio a {
@@ -137,11 +137,3 @@ header{
     margin: 10px;
 }
 
-aside {
-    flex: 30px;
-    background-color: lavender;
-    padding: 20px;
-}
-
-
-/* 
