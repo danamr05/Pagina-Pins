@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body{
+    background-color: lightgrey;
+}
+
 h1{
     padding: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -13,7 +17,26 @@ h1{
     font-weight: bold;
 }
 
-section .carrousel{
-    display: flex;
-    background-color: lavender;
-}
+#wrap{
+    margin: 0 auto;
+    width: 500px;
+  }
+
+  details{
+    border: 1px solid black;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom:5px;
+    width:100%;
+    background-color: #EEE;
+  }
+  summary{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  p, a, span{
+    font-size: 20px;
+    color: grey;
+  }

@@ -20,6 +20,11 @@ nav{
     font-size: 20px;
 }
 
+.logo a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
 .nav-links{
     display: flex; 
     justify-content: space-around;
@@ -137,3 +142,63 @@ header{
     margin: 10px;
 }
 
+h2{
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    width: 100%;
+    font-size: 30px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30%;
+}
+
+.grid-container div{
+    background-color: white;
+    color:black;
+    text-align: center;
+    border: 1px solid transparent;
+    margin: 10px;
+}
+
+.estilo-a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.estilo-a a {
+    text-decoration: none;
+    color: black;
+}
+
+.estilo-a a:hover{
+    text-decoration: underline;
+}
+
+.estilo-a .img-container img {
+    width: 70%;
+}
+.estilo-a .img-container{
+    overflow: hidden;   
+}
+
+.estilo-a .img-container img {
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.estilo-a:hover .img-container img{
+    transform: scale(1.2);
+}
