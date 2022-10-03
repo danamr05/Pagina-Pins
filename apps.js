@@ -21,5 +21,34 @@ const navSlide = () => {
 }
 navSlide();
 
-const miModal = new bootstrap.Modal(document.getElementById('miModal'), options)
- miModal();
+/*
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})
+
+(function(){
+    $(function(){
+        $('#btn-ventana').on('click',function(){
+            $('#ventana-modal').modal();
+        });
+    });
+});
+*/
+
+const modalAdd = document.querySelector('#modalAdd');
+const openModal = () => {
+    modalAdd.style.display = 'flex';
+}
+
+const closeModal = () => {
+    modalAdd.style.display = 'none';
+}
+
+modalAdd.onclick = (event) => {
+    if(event.target == modalAdd) {
+        closeModal();
+    }
+}
